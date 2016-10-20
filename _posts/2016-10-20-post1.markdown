@@ -1,0 +1,13 @@
+---
+layout: post
+title: "My First Attempt at a Jekyll Page"
+categories: jekyll update
+---
+
+Hello!
+
+{% highlight r %}
+test <- function(x) {
+    return(x)
+}
+{% endhighlight %}
