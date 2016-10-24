@@ -11,5 +11,6 @@ category: research
 <ul class="posts">
   {% for post in site.categories.research %}
   <li> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}:</a> {{ post.description }}</li>
+  <br>
   {% endfor %}
 </ul>
