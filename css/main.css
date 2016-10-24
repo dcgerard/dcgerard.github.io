@@ -206,6 +206,11 @@ footer {
     font-size: 3.5em;
 }
 
+#logo h2
+{
+    color: white;
+}
+
 #logo a
 {
     text-decoration: none;
@@ -222,4 +227,27 @@ footer {
 #logo span a
 {
     color: rgba(255,255,255,0.8);
+}
+
+
+
+/*********************************************************************************/
+/* two-column                                                                    */
+/*********************************************************************************/
+
+#two-column
+{
+    overflow: hidden;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+#two-column #twobox1,
+#two-column #twobox2
+{
+    float: left;
+    width: 45%;
+    padding: 20px 20px 40px 20px;
 }
