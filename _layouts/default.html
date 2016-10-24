@@ -8,7 +8,18 @@
   </head>
   <body>
     <div id="logo">
+      {% if page.category == "home" %}
       <span class="icon icon-bar-chart"></span>
+      {% endif %}
+      {% if page.category == "research" %}
+      <span class="icon icon-beaker"></span>
+      {% endif %}
+      {% if page.category == "about" %}
+      <span class="icon icon-user"></span>
+      {% endif %}
+      {% if page.category == "contact" %}
+      <span class="icon icon-envelope-alt"></span>
+      {% endif %}
       <h2> {{ page.title }} </h2>
     </div>
     <div id="menu">

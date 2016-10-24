@@ -251,3 +251,27 @@ footer {
     width: 45%;
     padding: 20px 20px 40px 20px;
 }
+
+
+/*********************************************************************************/
+/* three-column                                                                  */
+/*********************************************************************************/
+
+#three-column
+{
+    overflow: hidden;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+
+#three-column #tbox1,
+#three-column #tbox2,
+#three-column #tbox3
+{
+    float: left;
+    width: 25%;
+    padding: 40px 40px 40px 40px;
+}

@@ -1,10 +1,14 @@
 ---
 layout: default
 title: Research
+category: research
 ---
-<h1>{{ page.title }}</h1>
-<ul class="posts">
 
+<p>
+  On this webpage, I've included some descriptions of my research projects.
+</p>
+
+<ul class="posts">
   {% for post in site.categories.research %}
   <li> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}:</a> {{ post.description }}</li>
   {% endfor %}
