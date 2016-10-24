@@ -20,7 +20,7 @@ p, ol, ul
 
 ol, ul
 {
-    padding: 0;
+    padding: 1em;
     list-style: none;
 }
 

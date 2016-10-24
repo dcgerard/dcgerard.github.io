@@ -29,7 +29,7 @@ parameter space \[Lin and Perlman, 1985\]. The approach of James and
 Stein \[1961\] was to use equivariance: For *X* ∈ ℝ<sup>*p* × *n*</sup>,
 such that vec(*X*)∼*N*<sub>*p* × *n*</sub>(0, *I*<sub>*n*</sub> ⊗ *Σ*),
 only consider estimators such that
-$\\hat{\\Sigma}(AX) = A \\hat{\\Sigma}A^T$ for all *A* lower triangular
+\\(\\hat{\\Sigma}(AX) = A \\hat{\\Sigma}A^T\\) for all *A* lower triangular
 with positive diagonal elements. If we restrict ourselves to this class
 estimators, then it is possible to find a uniformly best estimator, and
 this best estimator dominates the sample covariance matrix in terms of
