@@ -159,7 +159,7 @@ footer {
     /*border:1px solid #2056ac;*/
     background:  #E3F0F7;
     display: block;
-/*color: #FFF;*/
+    color: #2056ac;
 }
 
 #menu ul li:hover ul li a
@@ -179,6 +179,7 @@ footer {
 {
     border-radius: 7px 7px 7px 7px;
     background: #2056ac;
+    color: #FFF;
 }
 #menu ul li:hover ul {
     border-radius: 7px 7px 7px 7px;

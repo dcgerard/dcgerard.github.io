@@ -34,8 +34,22 @@
     <div id="menu">
       <ul>
 	<li><a href="/">Home</a></li>
-	<li><a href="/research">Research</a></li>
-	<li><a href="/code">Code</a></li>
+	<li><a href="/research">Research</a>
+	  <ul >
+	    {% for post in site.categories.research limit:4 %}
+	    <li> <a href="{{ post.url }}" title="{{ post.title }}"><font size="2">{{ post.title }}</font></a></li>
+	    {% endfor %}
+	    <li> <a href="/research"><font size="2">All Research</font></a></li>
+	  </ul>
+	</li>
+	<li><a href="/code">Code</a>
+	  <ul>
+	    {% for post in site.categories.code limit:4 %}
+	    <li> <a href="{{ post.url }}" title="{{ post.title }}"><font size="2">{{ post.title }}</font></a></li>
+	    {% endfor %}
+	    <li> <a href="/code"><font size="2">All Code</font></a></li>
+	  </ul>
+	</li>
 	<li><a href="/cv">CV</a></li>
 	<li><a href="/about">About</a></li>
 	<li><a href="/contact">Contact Me</a></li>
