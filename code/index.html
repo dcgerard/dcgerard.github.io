@@ -11,5 +11,6 @@ category: code
 <ul class="posts">
   {% for post in site.categories.code %}
   <li> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}:</a> {{ post.description }}</li>
+  <br>
   {% endfor %}
 </ul>

@@ -1,0 +1,37 @@
+---
+title: Equivariant Estimation
+category: code
+layout: default
+description: Under the array normal model, these functions will use a non-informative prior over the space of Kronecker structured covariance matrices to find equivariant estimators that perform remarkably better than the maximum likelihood estimator.
+---
+
+<p>I've published some <code>R</code> code on <a href =
+"https://cran.r-project.org/web/packages/tensr/index.html">CRAN</a>
+that will run a Gibbs sampler to draw from the posterior distribution
+of the Kronecker structured covariance matrix in the array normal
+model. This posterior is with respect to a (non-informative) prior
+induced by the right Haar measure over a product group of lower
+triangular matrices acting on the space of Kronecker structured
+covariance matrices. For any invariant loss function, any Bayes rule
+with respect to this prior will be the uniformly minimum risk
+equivariant estimator (UMREE) with respect to that
+loss. This <code>R</code> code will also calculate the UMREE under a
+multiway generalization of Stein's loss. This estimator dominates the
+maximum likelihood estimator uniformly over the over the entire
+parameter space of Kronecker structured covariance matrices.</p>
+
+<p>Also available is a function that will calculate a (randomized)
+orthogonally invariant estimator of the Kronecker structured
+covariance matrix. This estimator dominates the UMREE under the
+product group of lower triangular matrices. Details of the methods may
+be found in</p>
+
+<p><b>Gerard, D.</b>, & Hoff, P. (2015). Equivariant minimax dominators of the MLE in the array normal model. <i>Journal of Multivariate Analysis</i>, 137, 32-49. <a href="http://www.sciencedirect.com/science/article/pii/S0047259X15000330">[Link to JMVA]</a> <a href="http://arxiv.org/pdf/1408.0424.pdf">[Link to arXiv]</a> <a href="bib_files/gerard2015equivariant.bib">[bib]</a></p>
+
+<p>I also provide a brief <a href="https://cran.r-project.org/web/packages/tensr/vignettes/equivariant_estimation.html">vignette</a> on how to use the functions available in the <code>R</code> code. To download, simply type in <code>R</code>:</p>
+
+<p> <code> install.packages("tensr")</code> </p>
+
+<p> Alternatively, you can download it directly from <a href = "https://cran.r-project.org/web/packages/tensr/index.html">CRAN</a>.</p>
+
+<p>Please provide us with questions or comments: David Gerard (dcgerard) or Peter Hoff (pdhoff) -- @uchicago.edu and @uw.edu, respectively.</p>

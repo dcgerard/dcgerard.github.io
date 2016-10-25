@@ -1,0 +1,44 @@
+---
+title: Higher-order Spectral Estimators
+category: code
+layout: default
+description: These functions will calculate estimators that shrink the core array in the higher-order singular value decomposition. This is useful if your data exhibit tensor structure, such as low multilinear rank. Tuning parameters in these estimators are chosen by minimizing an unbiased estimate of the mean squared error.
+---
+
+<p> I've placed some <code>R</code> code on <a href="https://github.com/dcgerard/hose">Github</a> that is useful for working with higher-order spectral estimators. These estimators are based on the higher-order singular value decomposition of De Lathauwer et. al. [2000] and are useful when your data exhibit tensor-specific structure, such as having approximately low multilinear rank. This code will allow you to:</p>
+<ul class="a">
+  <li> Calculate Stein's unbiased risk estimate (SURE) for <i>all</i> higher-order spectral estimators that are weakly differentiable and satisfy mild integrability conditions.</li>
+  <li> Calculate the mode-specific soft-thresholding estimator that minimizes the SURE using a coordinate descent algorithm.</li>
+  <li> Iterate through all the possible multilinear ranks of a mean tensor and choose the multilinear rank the minimizes the SURE.</li>
+  <li> Calculate a generalized SURE, motivated by generalized cross validation [Sardy, 2012], for all higher-order spectral estimators.</li>
+  <li> Calculate the SURE of estimators that apply higher-order spectral shrinkage to sub-tensors of the overall data tensor.</li>
+  <li> Calculate the SURE for estimators that individually shrink elements of the core array of the HOSVD of the data tensor.</li>
+  <li> Non-parametrically estimate the variance to use in these SURE procedures. </li>
+</ul>
+
+<p> All details of these methods may be found in</p>
+
+<p><b>Gerard, D.</b>, & Hoff, P. (2015). Adaptive higher-order spectral estimators. <i>arXiv preprint arXiv:1505.02114</i>. <a href="http://arxiv.org/pdf/1505.02114v1.pdf">[Link to arXiv]</a> <a href="gerard_hoff_sure_code.zip">[Code]</a> <a href="bib_files/gerard2015adaptive.bib">[bib]</a></p>
+
+<p> I also provide a <a href="sure_example.html">vignette</a> that demonstrates how to fit the truncated HOSVD and the mode-specific soft-thresholding estimators.</p>
+
+<p> You can download the package by typing in <code>R</code>:</p>
+
+<p><code> install.packages(c("tensr", "softImpute", "RMTstat", "devtools")) <br>
+    devtools::install_github("dcgerard/hose")
+</code></p>
+
+<!--<p> A ZIP file containing all data and R code needed to replicate the results of Gerard and Hoff [2015] may be downloaded <a href="gerard_hoff_sure_code.zip">Here</a>.</p>-->
+
+<p>These scripts were created and are maintained by David Gerard.</p>
+
+<p>Please provide us with questions or comments: David Gerard (dcgerard) or Peter Hoff (pdhoff) -- @uchicago.edu and @uw.edu, respectively.</p>
+
+<hr>
+<h2>References</h2>
+
+<p><b>Gerard, D.</b>, & Hoff, P. (2015). Adaptive higher-order spectral estimators. <i>arXiv preprint arXiv:1505.02114</i>. <a href="http://arxiv.org/pdf/1505.02114v1.pdf">[Link to arXiv]</a> <a href="gerard_hoff_sure_code.zip">[Code]</a> <a href="bib_files/gerard2015adaptive.bib">[bib]</a></p>
+
+<p>Lieven De Lathauwer, Bart De Moor, and Joos Vandewalle. A multilinear singular value decomposition. SIAM J. Matrix Anal. Appl., 21(4):1253–1278 (electronic), 2000. ISSN 0895-4798. doi: 10.1137/S0895479896305696. <a href="http://dx.doi.org/10.1137/S0895479896305696">[Link]</a></p>
+
+<p> Sylvain Sardy. Smooth blockwise iterative thresholding: a smooth fixed point estimator based on the likelihood’s block gradient. J. Amer. Statist. Assoc., 107(498):800–813, 2012. ISSN 0162-1459. doi: 10.1080/01621459.2012.664527. <a href="http://dx.doi.org/10.1080/01621459.2012.664527">[Link]</a></p>
