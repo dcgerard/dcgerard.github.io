@@ -4,7 +4,7 @@ title: Curriculum Vitae
 category: cv
 ---
 
-<p> A PDF version of my CV may be found <a href="gerard_cv.pdf">here</a>. A BibTex file containing citations to may papers may be found <a href={{ site.baseurl }} {% link /research/gerard_bib.bib %}>here</a>.</p>
+<p> A PDF version of my CV may be found <a href="gerard_cv.pdf">here</a>. A BibTex file containing citations to may papers may be found <a href={{ site.baseurl }}/research/gerard_bib.bib>here</a>.</p>
 
 <hr>
 
@@ -18,9 +18,11 @@ category: cv
 
 <h2> Articles </h2>
 <ul>
-  <li> <b>Gerard, D.</b>, & Hoff, P. (2016). A higher-order LQ decomposition for separable covariance models. <i>Linear Algebra and its Applications</i>, 505, 57-84. <a href="http://www.sciencedirect.com/science/article/pii/S002437951630132X?np=y">[Link to LAA]</a><a href="http://arxiv.org/pdf/1410.1094v1.pdf">[Link to arXiv]</a> </li>
+  <li> <b>Gerard, D.</b>, & Stephens, M. (2017). Unifying and Generalizing Methods for Removing Unwanted Variation Based on Negative Controls. arXiv preprint arXiv:1705.08393. <a href="https://arxiv.org/abs/1705.08393">[Link to arXiv]</a> </li>
   <br>
-  <li> <b>Gerard, D.</b>, & Hoff, P. (2015). Adaptive higher-order spectral estimators. <i>arXiv preprint arXiv:1505.02114</i>. <a href="http://arxiv.org/pdf/1505.02114v1.pdf">[Link to arXiv]</a></li>
+  <li> <b>Gerard, D.</b>, & Hoff, P. (2016). A higher-order LQ decomposition for separable covariance models. <i>Linear Algebra and its Applications</i>, 505, 57-84. <a href="http://www.sciencedirect.com/science/article/pii/S002437951630132X?np=y">[Link to LAA]</a><a href="http://arxiv.org/pdf/1410.1094.pdf">[Link to arXiv]</a> </li>
+  <br>
+  <li> <b>Gerard, D.</b>, & Hoff, P. (2015). Adaptive higher-order spectral estimators. <i>arXiv preprint arXiv:1505.02114</i>. <a href="http://arxiv.org/pdf/1505.02114.pdf">[Link to arXiv]</a></li>
   <br>
   <li> <b>Gerard, D.</b>, & Hoff, P. (2015). Equivariant minimax dominators of the MLE in the array normal model. <i>Journal of Multivariate Analysis</i>, 137, 32-49. <a href="http://www.sciencedirect.com/science/article/pii/S0047259X15000330">[Link to JMVA]</a> <a href="http://arxiv.org/pdf/1408.0424.pdf">[Link to arXiv]</a></li>
   <br>
@@ -29,69 +31,151 @@ category: cv
   <li> <b>Gerard, D.</b>, Gibbs, H. L., & Kubatko, L. (2011). Estimating hybridization in the presence of coalescence using phylogenetic intraspecific sampling. <i>BMC evolutionary biology</i>, 11(1), 291. <a href="http://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-11-291">[Link to BMC]</a></li>
 </ul>
 
+<h2> In Preparation </h2>
+<ul>
+<li> <b>Gerard, D.</b>, & Stephens, M. MOUTHWASH and BACKWASH:
+  Confounder Adjustments with Adaptive Shrinkage.
+  <ul>
+  <li> <i>Abstract</i>: Stephens (2016) recently introduced a powerful
+    new framework for multiple testing and estimation called
+    <b>A</b>daptive <b>SH</b>rinkage (ASH). ASH, a summary
+    statistic method (SSM), takes as input estimates of the effects
+    from a model and their corresponding standard errors and returns
+    useful summary quantities. ASH was found in simulations to yield
+    more discoveries than competitors while also accurately estimating
+    false discovery rates. However, analyzing real, not simulated,
+    data is fraught with many perils, chief among which is unobserved
+    confounding. In the presence of unobserved confounding many
+    methods, including ASH, can result in disastrously wrong
+    results. There are some SSM's which try to correct for unobserved
+    confounding, though none share in ASH's adaptive modeling approach
+    on the effects. In this paper we introduce MOUTHWASH
+    (<b>M</b>aximizing <b>O</b>ver <b>U</b>nobservables
+    <b>T</b>o <b>H</b>elp <b>W</b>ith <b>A</b>daptive
+    <b>SH</b>rinkage) and BACKWASH (<b>B</b>ayesian
+    <b>A</b>djustment for <b>C</b>onfounding <b>K</b>nitted
+    <b>W</b>ith <b>A</b>daptive <b>SH</b>rinkage), two methods
+    that take the ideas from these confounder-adjustment approaches
+    and combine them with the powerful methodology of ASH. In
+    realistic simulations, we observe significant gains in power and
+    calibration over competing procedures, particularly over methods
+    that require control genes (genes known to be null) when control
+    genes are scarce.</li>
+  <li> Stephens, M. (2016). False discovery rates: a new deal. Biostatistics.</li>
+   </ul> </li>
+<li><b>Gerard, D.</b>, Ferr&#227o, L. F. V., & Stephens, M. Harnessing
+  Empirical Bayes and Mendelian Segregation for Genotyping
+    Autopolyploids with Messy Sequencing Data.
+    <ul>
+    <li> <i>Abstract</i>: Genotyping by next-generation sequencing
+      (NGS) is a powerful and popular way to detect single nucleotide
+      polymorphisms (SNP's) and classify the alleles of
+      individuals. Genotyping diploid individuals using NGS is a
+      well-studied field and similar methods for polyploid individuals
+      are just emerging. However, there are many aspects of NGS data
+      that remain unexplored by most methods. We provide two main
+      contributions in this paper: (1) many datasets feature related
+      individuals, and so we use the structure of Mendelian
+      segregation to build an empirical Bayes approach for genotyping
+      polyploid individuals; (2) we additionally draw attention to and
+      then model common aspects of NGS data: sequencing error,
+      read-mapping bias, overdispersion, and outlying observations. We
+      verify our method in simulations and apply it to a dataset of
+      hexaploid sweet potatoes (<i>Ipomoea batatas</i>).</li>
+</ul></li>
+</ul>
+
 <h2> Research Experience </h2>
 <ul>
-  <li>Postdoctoral Scholar under Professor <a href="http://stephenslab.uchicago.edu/">Matthew Stephens</a>: 09/2015 - Present
-    <ul>
-      <li> Developing adaptive shrinkage methods to account for hidden confounding in large scale gene expression studies.</li>
-    </ul>
-  </li>
-  <li> Research Assistant Under Professor <a href="https://pdhoff.github.io/">Peter Hoff</a>: 09/2013 - 06/2015
-    <ul>
-      <li> Studied optimal estimation of covariance matrices in Gaussian arrays using the notions of equivariance. </li>
-      <li> Developed novel tensor decompositions, creating higher-order versions of well-known matrix decompositions.</li>
-      <li> Developed singular value shrinkage mean estimators for tensor-variate data.</li>
-    </ul>
-  </li>
-  <li> Research Assistant Under Professor <a href="https://statistics.stanford.edu/people/joseph-s-verducci">Joe Verducci</a>: 09/2011 - 06/2012
-    <ul>
-      <li> Studied monotone association between gene expression and drug resistance within an unspecified number of subtypes of cancer.</li>
-    </ul>
-  </li>
-  <li> Undergraduate Research Fellow Under Professors <a href="http://www.stat.osu.edu/~lkubatko/">Laura Kubatko</a> and <a href="http://www.biosci.ohio-state.edu/~eeob/gibbs/">H. Lisle Gibbs</a>: 04/2009 - 06/2010
-    <ul>
-      <li> Studied the hybridization of two subspecies of Missouri Rattlesnakes and two populations of Black Ratsnakes.</li>
-      <li> Duties included sequencing work in the lab, computer programming using Perl, and data analysis with various programs.</li>
-    </ul>
-  </li>
+  <li> Postdoctoral Scholar under Professor <a href="http://stephenslab.uchicago.edu/">Matthew Stephens</a>: 09/2015 - Present</li>
+  <ul>
+    <li> Developing empirical Bayes methods to account for hidden
+      confounding in large scale gene expression studies.</li>
+    <li> Efficiently implementing these methods in R and C++.</li>
+    <li> Rigorously testing these methods using Monte Carlo methods.</li>
+    <li> Leading/mentoring graduate students on their individual projects.</li>
+    <li> Authoring reports and academic papers.</li>
+  </ul>
+  <li> Research Assistant Under Professor
+    <a href="https://pdhoff.github.io/">Peter Hoff</a>: 09/2013 - 06/2015</li>
+  <ul>
+    <li> Studied optimal estimation of covariance matrices in Gaussian
+      arrays using the notions of equivariance.</li>
+    <li> Developed novel tensor decompositions, creating higher-order
+      versions of well-known matrix decompositions.</li>
+    <li> Developed singular value shrinkage mean estimators for
+      tensor-variate data.</li>
+  </ul>
+  <li> Research Assistant Under Professor
+    <a href="https://statistics.stanford.edu/people/joseph-s-verducci">Joe
+      Verducci</a>: 09/2011 - 06/2012</li>
+  <ul>
+    <li> Studied monotone association between gene expression and drug
+      resistance within unspecified subtypes of cancer.</li>
+  </ul>
+  <li> Undergraduate Research Fellow Under Professors
+    <a href="http://www.stat.osu.edu/~lkubatko/">Laura Kubatko</a> and
+    <a href="http://www.biosci.ohio-state.edu/~eeob/gibbs/">H. Lisle
+      Gibbs</a>: 04/2009 - 06/2010</li>
+  <ul>
+    <li> Studied the hybridization of two subspecies of Missouri
+      Rattlesnakes and two populations of Black Ratsnakes.</li>
+    <li> Duties included sequencing work in the lab, computer programming
+      using Perl, and data analysis with various programs.</li>
+  </ul>
 </ul>
 
 
 <h2> Teaching Experience </h2>
 <ul>
-  <li>Lecturer of introductory statistics 06/2013 - 09/2013
-    <ul>
-      <li> Duties included: creating lesson plans, homework assignments, and exams.</li>
-    </ul>
-  </li>
-  <li> Graduate Teaching Assistant 09/2012 - 06/2013
-    <ul>
-      <li> Taught four one-hour recitation sections of introductory statistics every week.</li>
-    </ul>
-  </li>
-  <li> Lecturer of introductory statistics 09/2011 - 12/2011
-    <ul>
-      <li> Duties included: leading discussions, grading, and individual tutoring.</li>
-    </ul>
-  </li>
-  <li> Phylogenetic Workshop Teaching Assistant 06/2011 - 08/2011
-    <ul>
-      <li> Led a group of undergraduate researchers studying HIV. We studied the association between evolutionary distance (measured by branch distance along estimated trees) and clinical variables collected by an HIV treatment center in Belgium.</li>
-    </ul>
-  </li>
-  <li> Phylogenetic Workshop Teaching Assistant 06/2010 - 08/2010
-    <ul>
-      <li> Led lab sessions on Unix and various phylogenetic program packages.</li>
-      <li> Led a group of undergraduates researching the evolutionary origins of flightless birds.</li>
-      <li> Individually tutored an undergraduate student on phylogenetic research and statistical analysis with R. We tried to incorporate protein structure into our gene tree estimates while studying the evolutionary relationships of HPV.</li>
-    </ul>
-  </li>
-  <li> Undergraduate Teaching Assistant: 09/2008 - 12/2008
-    <ul>
-      <li> Taught four one-hour recitation sections of intermediate algebra every week.</li>
-    </ul>
-  </li>
+  <li> Lecturer of introductory statistics 06/2013 - 09/2013</li>
+  <ul>
+    <li> Developed my own lesson plans and slides from which I lectured three times a week.</li>
+    <li> Created material for two teaching assistants during their
+      small-group sections.</li>
+    <li> Course content included comparisons of good sampling designs
+      versus bad sampling designs, conditions under which claims of
+      causality may be made, confounding variables, good and bad measures
+      for answering questions of interest, describing relationships
+      between variables, and good and bad graphics to describe data.</li>
+  </ul>
+  <li> Graduate Teaching Assistant 09/2012 - 06/2013</li>
+  <ul>
+    <li> Led four one-hour recitation sections of introductory
+      statistics every week.</li>
+    <li> These were small group discussions that acted primarily as
+      support for the main content taught during lecture.</li>
+  </ul>
+  <li> Lecturer of introductory statistics 09/2011 - 12/2011</li>
+  <ul>
+    <li> Lectured to large groups of students using a pre-defined course plan.</li>
+    <li> Created my own slides to follow along the lesson plans.</li>
+  </ul>
+  <li> Phylogenetic Workshop Assistant 06/2011 - 08/2011</li>
+  <ul>
+    <li> Led a group of undergraduate researchers studying HIV. We
+      studied the association between evolutionary distance (measured by
+      branch distance along estimated trees) and clinical variables
+      collected by an HIV treatment center in Belgium.</li>
+  </ul>
+  <li> Phylogenetic Workshop Assistant 06/2010 - 08/2010</li>
+  <ul>
+    <li> Led lab sessions on Unix and various phylogenetic program
+      packages.</li>
+    <li> Led a group of undergraduates researching the evolutionary
+      origins of flightless birds.</li>
+    <li> Individually mentored an undergraduate student on phylogenetic
+      research and statistical analysis with R. We tried to incorporate
+      protein structure into our gene tree estimates while studying the
+      evolutionary relationships of HPV.</li>
+  </ul>
+  <li> Undergraduate Teaching Assistant: 09/2008 - 12/2008</li>
+  <ul>
+    <li> Taught four one-hour recitation sections of intermediate
+      algebra every week.</li>
+  </ul>
 </ul>
+
 
 <h2>Awards</h2>
 
@@ -118,11 +202,16 @@ category: cv
 
 <h2>Coding</h2>
 <ul>
-  <li> R Packages: <a href="https://cran.r-project.org/web/packages/tensr/index.html">tensr</a>, <a href="https://github.com/dcgerard/hose">hose</a>, <a href="https://github.com/dcgerard/vicar">vicar</a>.</li>
+  <li> R Packages: <a href="https://cran.r-project.org/web/packages/tensr/index.html">tensr</a>,
+    <a href="https://github.com/dcgerard/hose">hose</a>,
+    <a href="https://github.com/dcgerard/vicar">vicar</a>,
+    <a href="https://github.com/dcgerard/seqgendiff">seqgendiff</a>,
+    <a href="https://github.com/dcgerard/updog">updog</a>.
+  </li>
   <br>
-  <li> Advanced: R, LaTeX. </li>
+  <li> Advanced training: R, \LaTeX.</li>
   <br>
-  <li> Intermediate: C, Shell.</li>
+  <li> Intermediate training: C++, Shell.</li>
   <br>
   <li> Familiar: Python, Matlab/Octave, Mathematica.</li>
 </ul>
