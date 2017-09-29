@@ -1,0 +1,74 @@
+---
+title: Confounder Adjustment with MOUTHWASH
+category: research
+layout: default
+description: Empirical Bayes with the factor-augmented regression model for confounder adjustment.
+---
+
+<p>I <a href="{{ site.url }}/research/2017/06/29/ruv.html">previously</a>
+  introduced the problem of unobserved confounding in large scale gene
+  expression analyses and mentioned a few methods that attempt to
+  account such confounding. (You should check that out before reading further.)
+  However, all of these confounder
+  adjustment methods are somewhat classical in that they do not adapt
+  to the distribution of the effects. There is a long history,
+  starting with Stein, of showing that shrinkage and hierarchical
+  modeling can greatly improve estimation and testing.
+  In <a href="https://arxiv.org/abs/1709.10066">Gerard and Stephens (2017)</a>, I adapted these hierarchical shrinkage methods to
+  the problem of unobserved confounding.</p>
+
+<p>One shrinkage approach (outside of the context of confounder
+  adjustment) that my postdoctoral advisor recently developed is
+  <a href="https://www.biorxiv.org/content/early/2016/06/08/038216">Adaptive SHrinkage (ASH)</a>.
+  ASH works in the old normal means problem,
+  suggesting that researchers, when there is one observed covariate,
+  take estimates for the effects \(\mathbf{B}\) (and their corresponding standard errors,
+  \(\hat{s}_i\)) from an ordinary least squares fit and then assume
+  \begin{align}
+  \label{eq:norm.means}
+  \hat{\mathbf{B}} = \mathbf{B} + \mathbf{e},\ \ \ e_{i} \sim N(0, \hat{s}_i^2),\
+  \ \
+  e_1,\ldots,e_p \text{ independent}.
+  \end{align}
+  Though the normal means problem shown above is old, ASH's
+  innovation is to take a non-parameteric empirical Bayes approach to
+  estimation. ASH assumes that the effects (the
+  \(B_i\)'s) follow some unimodal distribution, then estimates this prior
+  by maximum marginal likelihood.</p>
+
+
+<p>Using simulations that satisfy ASH's independence assumption,
+  ASH was shown to be more powerful and better
+  calibrated than competing procedures. However, when there is
+  unobserved confounding, ASH, like most other methods, can fail
+  drastically. For my next project, I took the ideas from ASH and the
+  confounder adjustment procedures and
+  unified them into a powerful and well-calibrated approach that
+  accounts for unobserved confounding. To describe this method, I note
+  others have shown that many confounder adjustment procedures can be reduced to fitting
+\begin{align}
+  \label{eq:reduced.model}
+  \hat{\mathbf{B}} = \mathbf{B} + \tilde{\mathbf{\alpha}}^{\intercal}\mathbf{z} +
+  \mathbf{e},\ \ \  e_i \sim N(0, \hat{s}_i^2),
+\end{align}
+where \(\tilde{\mathbf{\alpha}}\) is a known term and
+\(\mathbf{z} \in \mathbb{R}^q\) is unknown. To me, this
+looks just like the normal means model with an
+extra bias term (\(\tilde{\mathbf{\alpha}}^{\intercal}\mathbf{z}\)). This
+immediately suggested a strategy to unite ASH with confounder
+adjustment: (i) Place a unimodal prior over the effects (&agrave la ASH).  (ii) Estimate this unimodal prior <i>jointly</i> with \(\mathbf{z}\).
+(iii) Return posterior summaries using this estimated unimodal
+prior. As with all methods, there were many additional practical
+issues that needed addressing (e.g. variance calibration, robustifying
+the procedure, dealing with massive datasets), but the result was a
+well-performing procedure that I think will be quite useful for the
+scientific community (software available
+<a href = "https://github.com/dcgerard/vicar">here</a>).</p>
+
+
+<h2>References</h2>
+<ul>
+  <li> <b>Gerard, D.</b>, & Stephens, M. (2017). Empirical Bayes
+  Shrinkage and False Discovery Rate Estimation, Allowing For Unwanted
+  Variation. arXiv preprint arXiv:1709.10066. <a href="https://arxiv.org/abs/1709.10066">[Link to arXiv]</a> </li>
+</ul>
