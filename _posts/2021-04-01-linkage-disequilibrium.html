@@ -1,0 +1,62 @@
+---
+title: Linkage Disequilibrium in Polyploids
+category: research
+layout: default
+description: I describe some of my work in estimating LD in polyploids
+---
+
+<p>Polyploids, organisms with more than two copies of their genome,
+are ubiquitous in the plant kingdom, predominant in agriculture, and
+important drivers of evolution. Biologists have thus spent significant
+resources studying these organisms. I was surprised then when I found
+that very little work had been done to characterize and estimate
+linkage disequilibrium (LD) in polyploids</p>
+
+<p>LD is the statistical association between two alleles at different
+loci. It is used all over the place in computational biology and
+population genetics, but the literature is pretty lacking in
+describing LD in polyploids. So in Gerard (2021a), I provided a series
+of characterizations of LD in polyploids. I discuss measures that are
+both "haplotypic" (alleles are on the same haplotype) and "composite"
+(alleles may be on separate haplotypes). The haplotypic measures are
+old-hat, but the composite measures here are the real novelty. They
+are useful because you only need genotype (dosage) information to
+estimate them, which is a bonus for polyploids since haplotypic phase
+is really hard to come by with current technologies.</p>
+
+<p>But actually estimating LD in polyploids is tricky because of
+genotype uncertainty. In polyploids, it is much harder to be sure of
+your genotypes because of the many different types of heterozygosity,
+as well as data-quirks like allele bias and overdispersion which are
+more significant in polyploids. If you aren't sure of your genotypes,
+and you use estimated genotypes to calculate LD, it will be super
+biased toward 0. Statisticians call this "attenuation", and it's a
+(120 year old) known result of measurement error.</p>
+
+<p>In Gerard (2021b), I came up with a way to get rid of this bias
+  that's super fast. Below are LD estimates (y-axis) for a simulated
+  octoploid species where true LD is the red dashed line. Blue uses
+  estimated genotypes. Black is MLE (from Gerard, 2021a), orange is my
+  new way (from Gerard 2021b).
+  <br></br>
+  <div align="center">
+    <img src="{{ site.url }}/fig/ldest_box.png" width="800" height="400" alt="" />
+  </div>
+  <br></br>
+  Black and orange behave about the same, but orange is
+  loads faster. For 2000 SNPs, black would take <b>days</b> of
+  computation time to do all pairs of SNPs, while orange would
+  take <b>seconds</b>. I used a simple approach that just requires
+  posterior moments of each individual's genotype, obtainable from
+  most genotyping software. Check it out!</p>
+
+<p>The software that implements these approaches is on CRAN: <a href="https://cran.r-project.org/package=ldsep">https://cran.r-project.org/package=ldsep</a></p>
+
+<hr>
+<h2>References</h2>
+
+<p>Gerard, D. (2021a). Pairwise Linkage Disequilibrium Estimation for Polyploids. <i>Molecular Ecology Resources</i> (in press), p. 1--19. <a href="https://doi.org/10.1111/1755-0998.13349">doi:10.1111/1755-0998.13349</a> | <a href="https://doi.org/10.1101/2020.08.03.234476">bioRxiv:2020.08.03.234476</a></p>
+
+<p>Gerard, D. (2021b). Scalable Bias-corrected Linkage Disequilibrium Estimation Under Genotype Uncertainty. <i>bioRxiv</i>, p. 1--22. <a href="https://doi.org/10.1101/2021.02.08.430270">doi:10.1101/2021.02.08.430270</a></p>
+
+
