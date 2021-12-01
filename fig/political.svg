@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="85mm"
+   height="83mm"
+   viewBox="0 0 85 83"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281943+c3084ef5ed)"
+   sodipodi:docname="political.svg"
+   inkscape:export-filename="/home/dgerard/Dropbox/dcgerard.github.io/fig/political.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="85mm"
+     inkscape:zoom="1.2810466"
+     inkscape:cx="154.95143"
+     inkscape:cy="201.78814"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path101257" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-81.348289"
+       y="61.375137"
+       id="text3009"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan3007"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="-81.348289"
+         y="61.375137" /></text>
+    <g
+       id="g101605"
+       transform="translate(-56.690491,-14.763472)">
+      <g
+         id="g11808">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 99.151682,21.619671 V 92.76994"
+           id="path857" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 134.72682,57.194805 H 63.576547"
+           id="path857-3" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="41.912506"
+         y="-136.64594"
+         id="text5191"
+         transform="rotate(90)"><tspan
+           sodipodi:role="line"
+           id="tspan5189"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond';stroke-width:0.264583"
+           x="41.912506"
+           y="-136.64594">Frequentist</tspan></text>
+      <circle
+         style="fill:#ff0000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path11832"
+         cx="86.196281"
+         cy="66.865997"
+         r="1.6870621" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond';stroke-width:0.264583"
+         x="-68.734146"
+         y="61.735046"
+         id="text82898"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan82896"
+           style="font-size:7.05556px;stroke-width:0.264583"
+           x="-68.734146"
+           y="61.735046">Bayesian</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond';stroke-width:0.264583"
+         x="88.949379"
+         y="19.700558"
+         id="text88798"><tspan
+           sodipodi:role="line"
+           id="tspan88796"
+           style="font-size:7.05556px;stroke-width:0.264583"
+           x="88.949379"
+           y="19.700558">Testing</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond';stroke-width:0.264583"
+         x="83.901138"
+         y="97.320778"
+         id="text92706"><tspan
+           sodipodi:role="line"
+           id="tspan92704"
+           style="font-size:7.05556px;stroke-width:0.264583"
+           x="83.901138"
+           y="97.320778">Estimation</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond';stroke-width:0.264583"
+         x="69.032547"
+         y="82.565369"
+         id="text98656"><tspan
+           sodipodi:role="line"
+           id="tspan98654"
+           style="stroke-width:0.264583"
+           x="69.032547"
+           y="82.565369">Me</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+         d="m 78.371321,80.216348 c 0,0 10.718244,-0.783299 9.764992,-4.979311 -0.953254,-4.196011 -0.953254,-4.196011 -0.953254,-4.196011"
+         id="path101240" />
+    </g>
+  </g>
+</svg>
