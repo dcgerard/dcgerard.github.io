@@ -16,7 +16,7 @@ heading to the nation's capital.
 <a href="https://en.wikipedia.org/wiki/Washington_Nationals"><img height="20" alt = "Washington Nationals" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Washington_Nationals_logo_%28low_res%29.svg/1200px-Washington_Nationals_logo_%28low_res%29.svg.png" alt="Washington Nationals logo (low res).svg"></a>
 <a href="https://en.wikipedia.org/wiki/Columbus_Blue_Jackets"><img height="20" alt = "Columbus Blue Jackets" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Columbus_Blue_Jackets_logo.svg/1200px-Columbus_Blue_Jackets_logo.svg.png" alt="Columbus Blue Jackets logo.svg"></a>
 
-- Current and Previous University Employers:
+- Current and Previous Affiliations:
 <a href="https://en.wikipedia.org/wiki/Ohio_State_University"><img height="20" alt="The Ohio State University" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a> 
 <a href="https://en.wikipedia.org/wiki/University_of_Washington"><img height="20" alt="University of Washington" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/University_of_Washington_Purple_Block_W_logo.svg/256px-University_of_Washington_Purple_Block_W_logo.svg.png"></a>
 <a href="https://en.wikipedia.org/wiki/University_of_Chicago"><img height="20" alt="University of Chicago" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Chicago_Maroons_logo.svg/1200px-Chicago_Maroons_logo.svg.png"></a>
