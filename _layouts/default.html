@@ -20,6 +20,9 @@
       {% if page.category == "code" %}
       <span class="icon icon-laptop"></span>
       {% endif %}
+      {% if page.category == "teaching" %}
+      <span class="icon icon-book"></span>
+      {% endif %}
       {% if page.category == "about" %}
       <span class="icon icon-user"></span>
       {% endif %}
@@ -47,13 +50,15 @@
 	</li>
 	<li {% if page.category == "code" %} class="active" {% endif %}>
 	  <a href="/code">Code</a>
-	  <ul>
-	    {% for post in site.categories.code limit:3 %}
-	    <li> <a href="{{ post.url }}" title="{{ post.title }}"><font size="2">{{ post.title }}</font></a></li>
-	    {% endfor %}
-	    <li> <a href="/code"><font size="2">All Code</font></a></li>
-	  </ul>
+	  <!-- <ul> -->
+	  <!--   {% for post in site.categories.code limit:3 %} -->
+	  <!--   <li> <a href="{{ post.url }}" title="{{ post.title }}"><font size="2">{{ post.title }}</font></a></li> -->
+	  <!--   {% endfor %} -->
+	  <!--   <li> <a href="/code"><font size="2">All Code</font></a></li> -->
+	  <!-- </ul> -->
 	</li>
+	<li {% if page.category == "teaching" %} class="active" {% endif %}>
+	  <a href="/teaching">Teaching</a></li>
 	<li {% if page.category == "cv" %} class="active" {% endif %}>
 	  <a href="/cv">CV</a></li>
 	<li {% if page.category == "about" %} class="active" {% endif %}>
