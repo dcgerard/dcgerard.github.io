@@ -39,7 +39,7 @@ data, and executing automatically via a Makefile.
 
 - Gerard, David, and Luís Felipe Ventorim Ferrão. 2020. "Priors for Genotyping Polyploids." *Bioinformatics* 36 (6): 1795–1800. <https://doi.org/10.1093/bioinformatics/btz852>.
 
-- Gerard, David, Luís Felipe Ventorim Ferrão, Antonio Augusto Franco Garcia, and Matthew Stephens. 2018. "Genotyping Polyploids from Messy Sequencing Data.: *Genetics* 210 (3): 789–807. <https://doi.org/10.1534/genetics.118.301468>.
+- Gerard, David, Luís Felipe Ventorim Ferrão, Antonio Augusto Franco Garcia, and Matthew Stephens. 2018. "Genotyping Polyploids from Messy Sequencing Data." *Genetics* 210 (3): 789–807. <https://doi.org/10.1534/genetics.118.301468>.
 
 - Gerard, David, and Peter Hoff. 2017. "Adaptive Higher-Order Spectral Estimators." *Electron. J. Statist.* 11 (2): 3703–37. <https://doi.org/10.1214/17-EJS1330>.
 
