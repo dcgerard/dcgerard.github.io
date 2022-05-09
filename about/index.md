@@ -13,7 +13,7 @@ heading to the nation's capital.
 - Favorite Sports Teams: 
 <a href="https://en.wikipedia.org/wiki/Ohio_State_Buckeyes_football"><img height="20" alt="Ohio State Buckeyes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a> 
 <a href="https://en.wikipedia.org/wiki/Cleveland_Browns"><img height="20" alt="Cleveland Browns" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Cleveland_Browns_logo.svg/1200px-Cleveland_Browns_logo.svg.png" alt="Cleveland Browns logo"></a>
-<a href="https://en.wikipedia.org/wiki/Washington_Nationals"><img height="20" alt = "Washington Nationals" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Washington_Nationals_logo_%28low_res%29.svg/1200px-Washington_Nationals_logo_%28low_res%29.svg.png" alt="Washington Nationals logo (low res).svg"></a>
+<a title="Washington Nationals, Public domain, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Washington_Nationals"><img height="20" alt="Washington Nationals" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Washington_Nationals_logo.svg/256px-Washington_Nationals_logo.svg.png"></a>
 <a href="https://en.wikipedia.org/wiki/Columbus_Blue_Jackets"><img height="20" alt = "Columbus Blue Jackets" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Columbus_Blue_Jackets_logo.svg/1200px-Columbus_Blue_Jackets_logo.svg.png" alt="Columbus Blue Jackets logo.svg"></a>
 
 - Current and Previous Affiliations:
