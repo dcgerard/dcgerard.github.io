@@ -18,4 +18,8 @@ These three classes cover an introductory Statistics sequence:
 - [Intermediate Statistics](https://dcgerard.github.io/stat614/)
 - [Regression](https://dcgerard.github.io/stat_415_615/)
 
+The following contains some lecture notes I created to present to my research group on genetic data analysis:
+
+- [Genetic Data Analysis](https://dcgerard.github.io/gda/)
+
 I have also mentored students in the past. I am particularly proud of Ruiqi Sun's master's thesis, that you can read here: <http://hdl.handle.net/1961/auislandora:85274>
