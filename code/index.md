@@ -4,7 +4,7 @@ title: Code
 category: code
 ---
 
-I have written a lot of code for my research. You can see most of it on my [GitHub Page](https://github.com/dcgerard). But here is a list of some of my packages:
+I have written a lot of code for my research. You can see most of it on my [GitHub Page](https://github.com/dcgerard). But here is a list of some of my R packages:
 
 - [ldsep](https://cran.r-project.org/package=ldsep): Linkage Disequilibrium Shrinkage Estimation for Polyploids
 - [hwep](https://cran.r-project.org/package=hwep): Hardy-Weinberg Equilibrium in Polyploids

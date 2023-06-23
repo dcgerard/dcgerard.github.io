@@ -26,4 +26,4 @@ published software package,
 References
 ----------
 
-Gerard, David. 2020. Data-based RNA-seq simulations by binomial thinning. *BMC Bioinformatics* 21(1). p. 206. [doi:10.1186/s12859-020-3450-9](https://doi.org/10.1186/s12859-020-3450-9).
+**Gerard, David**. (2020). Data-based RNA-seq simulations by binomial thinning. *BMC Bioinformatics* 21(1), 206. [doi:10.1186/s12859-020-3450-9](https://doi.org/10.1186/s12859-020-3450-9) \| [bioRxiv:758524](https://doi.org/10.1101/758524 ).
