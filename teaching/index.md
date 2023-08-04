@@ -25,7 +25,7 @@ The following contains some lecture notes I created to present to my research gr
 I have also mentored students in the past. I am particularly proud of my Master's students who wrote theses with me:
 
 - Sun, R. (2020). Estimating preferential pairing in polyploids. *Master’s thesis*. American
-University. p. 1–47. [auislandora:85274](https://hdl.handle.net/1961/auislandora:85274) \| [ProQuest:2436381968](https://www.proquest.com/docview/2436381968)
+University. p. 1–47. [doi:10.57912/23856744](https://doi.org/10.57912/23856744) \| [ProQuest:2436381968](https://www.proquest.com/docview/2436381968)
 
 - Matoka Nana, K. (2023). Exact tests for random mating in autotetraploids. *Master’s thesis*.
 American University. p. 1–38. [doi:10.57912/23504199](https://doi.org/10.57912/23504199) \| [ProQuest:2808426065](https://www.proquest.com/docview/2808426065)
