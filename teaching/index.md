@@ -28,4 +28,4 @@ I have also mentored students in the past. I am particularly proud of my Master'
 
 - Matoka Nana, K. (2023). Exact tests for random mating in autotetraploids. *Master’s thesis*. American University. p. 1–38. [doi:10.57912/23504199](https://doi.org/10.57912/23504199) \| [ProQuest:2808426065](https://www.proquest.com/docview/2808426065)
 
-- Thakkar, M. (2023). Bayesian tests for segregation distortion in experimental tetraploid populations. *Master's thesis*. American University. p. 1-58. [ProQuest:2847679939](https://www.proquest.com/docview/2847679939)
+- Thakkar, M. (2023). Bayesian tests for segregation distortion in experimental tetraploid populations. *Master's thesis*. American University. p. 1-58. [doi:10.57912/24256936](https://doi.org/10.57912/24256936) \| [ProQuest:2847679939](https://www.proquest.com/docview/2847679939)
