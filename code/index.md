@@ -6,6 +6,7 @@ category: code
 
 I have written a lot of code for my research. You can see most of it on my [GitHub Page](https://github.com/dcgerard). But here is a list of some of my R packages:
 
+- [menbayes](https://github.com/dcgerard/menbayes): Tests for Segregation Distortion in Tetraploids
 - [ldsep](https://cran.r-project.org/package=ldsep): Linkage Disequilibrium Shrinkage Estimation for Polyploids
 - [hwep](https://cran.r-project.org/package=hwep): Hardy-Weinberg Equilibrium in Polyploids
 - [updog](https://cran.r-project.org/package=updog): Flexible Genotyping for Polyploids
@@ -17,9 +18,10 @@ I have written a lot of code for my research. You can see most of it on my [GitH
 Most of my work emphasizes extreme reproducibility, linking code with
 data, and executing automatically via a Makefile.
 
-- Gerard (2022a): <https://github.com/dcgerard/rmbayes_sims>
-- Gerard (2022b): <https://github.com/dcgerard/hwesims>
-- Gerard (2022c)<https://github.com/dcgerard/hwesupp>
+- Gerard (2024): <https://github.com/dcgerard/mbanalysis>
+- Gerard (2023a): <https://github.com/dcgerard/rmbayes_sims>
+- Gerard (2023b): <https://github.com/dcgerard/hwesims>
+- Gerard (2022)<https://github.com/dcgerard/hwesupp>
 - Gerard (2021a): <https://github.com/dcgerard/ldfast_sims>
 - Gerard (2021b): <https://github.com/dcgerard/ld_simulations>
 - Gerard and Stephens (2021): <https://github.com/dcgerard/ruvb_sims>
@@ -31,14 +33,18 @@ data, and executing automatically via a Makefile.
 
 ### References
 
-- **Gerard, D.** (2022a). Bayesian tests for random mating in polyploids. *bioRxiv*. p. 1--26. \\
+- **Gerard, D.**, Thakkar, M., Ferr&atilde;o, L. F. V. (2024). Tests for segregation distortion in tetraploid F1 populations. *bioRxiv*. \\
+  [boiRxiv:2024.02.07.579361](https://doi.org/10.1101/2024.02.07.579361)
+
+- **Gerard, D.** (2023a). Bayesian tests for random mating in polyploids. *Molecular Ecology Resources* 23(8), p. 1812--1822. \\
+  [doi:10.1111/1755-0998.13856](https://doi.org/10.1111/1755-0998.13856)
   [bioRxiv:2022.08.11.503635](https://doi.org/10.1101/2022.08.11.503635)
 
-- **Gerard, D.** (2022b). Double reduction estimation and equilibrium tests in natural autopolyploid populations. *Biometrics* (In press), p. 1--14.\\
+- **Gerard, D.** (2023b). Double reduction estimation and equilibrium tests in natural autopolyploid populations. *Biometrics* 79(3), p. 2143--2156.\\
   [doi:10.1111/biom.13722](https://doi.org/10.1111/biom.13722)
   [bioRxiv:2021.09.24.461731](https://doi.org/10.1101/2021.09.24.461731)
 
-- **Gerard, D.** (2022c). Comment on three papers about Hardy-Weinberg equilibrium tests in autopolyploids. *Frontiers in Genetics* 13, p. 1--6.\\
+- **Gerard, D.** (2022). Comment on three papers about Hardy-Weinberg equilibrium tests in autopolyploids. *Frontiers in Genetics* 13, p. 1--6.\\
   [doi:10.3389/fgene.2022.1027209](https://doi.org/10.3389/fgene.2022.1027209)
   [HAL:hal-03754674](https://hal.archives-ouvertes.fr/hal-03754674)
 
