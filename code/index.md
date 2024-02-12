@@ -18,7 +18,7 @@ I have written a lot of code for my research. You can see most of it on my [GitH
 Most of my work emphasizes extreme reproducibility, linking code with
 data, and executing automatically via a Makefile.
 
-- Gerard (2024): <https://github.com/dcgerard/mbanalysis>
+- Gerard et al. (2024): <https://github.com/dcgerard/mbanalysis>
 - Gerard (2023a): <https://github.com/dcgerard/rmbayes_sims>
 - Gerard (2023b): <https://github.com/dcgerard/hwesims>
 - Gerard (2022)<https://github.com/dcgerard/hwesupp>
