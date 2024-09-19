@@ -12,10 +12,10 @@ These three classes cover a statistical programming sequence:
 - [R for Data Science II](https://data-science-master.github.io/lectures/)
 - [Advanced R](https://dcgerard.github.io/advancedr/)
 
-These three classes cover an introductory Statistics sequence:
+These (four) classes cover an introductory Statistics sequence:
 
 - [Introductory Statistics](https://dcgerard.github.io/stat234/)
-- [Intermediate Statistics](https://dcgerard.github.io/stat614/)
+- [Biostatistics](https://dcgerard.github.io/stat_320/) or [Statistical Methods](https://dcgerard.github.io/stat614/)
 - [Regression](https://dcgerard.github.io/stat_415_615/)
 
 The following contains some lecture notes I created to present to my research group on genetic data analysis:
