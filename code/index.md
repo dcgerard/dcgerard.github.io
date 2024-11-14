@@ -6,7 +6,7 @@ category: code
 
 I have written a lot of code for my research. You can see most of it on my [GitHub Page](https://github.com/dcgerard). But here is a list of some of my R packages:
 
-- [menbayes](https://github.com/dcgerard/menbayes): Tests for Segregation Distortion in Tetraploids
+- [segest](https://cran.r-project.org/package=segtest) (or the older [menbayes](https://github.com/dcgerard/menbayes)): Tests for Segregation Distortion in Tetraploids
 - [ldsep](https://cran.r-project.org/package=ldsep): Linkage Disequilibrium Shrinkage Estimation for Polyploids
 - [hwep](https://cran.r-project.org/package=hwep): Hardy-Weinberg Equilibrium in Polyploids
 - [updog](https://cran.r-project.org/package=updog): Flexible Genotyping for Polyploids
