@@ -10,19 +10,19 @@ years. I moved to Seattle for graduate school and drank some really
 good coffee. I moved back to the Midwest for a few years before
 heading to the nation's capital.
 
-- Favorite Sports Teams: 
-<a href="https://en.wikipedia.org/wiki/Ohio_State_Buckeyes_football"><img height="20" alt="Ohio State Buckeyes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a> 
-<a href="https://en.wikipedia.org/wiki/Cleveland_Browns"><img height="20" alt="Cleveland Browns" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Cleveland_Browns_logo.svg/1200px-Cleveland_Browns_logo.svg.png" alt="Cleveland Browns logo"></a>
+- Favorite Sports Teams:
+<a href="https://en.wikipedia.org/wiki/Ohio_State_Buckeyes_football"><img height="20" alt="Ohio State Buckeyes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a>
+<a href="https://en.wikipedia.org/wiki/Washington_Commanders"><img height="20" alt="Washington Commanders" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Washington_Commanders_logo.svg/2880px-Washington_Commanders_logo.svg.png" alt="Washington Commanders logo"></a>
 <a title="Washington Nationals, Public domain, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Washington_Nationals"><img height="20" alt="Washington Nationals" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Washington_Nationals_logo.svg/256px-Washington_Nationals_logo.svg.png"></a>
-<a href="https://en.wikipedia.org/wiki/Columbus_Blue_Jackets"><img height="20" alt = "Columbus Blue Jackets" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Columbus_Blue_Jackets_logo.svg/1200px-Columbus_Blue_Jackets_logo.svg.png" alt="Columbus Blue Jackets logo.svg"></a>
+<a href="https://en.wikipedia.org/wiki/Washington_Capitals"><img height="20" alt = "Washington Capitals" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Washington_Capitals.svg/2560px-Washington_Capitals.svg.png" alt="Washington Capitals logo.svg"></a>
 
 - Current and Previous Affiliations:
-<a href="https://en.wikipedia.org/wiki/Ohio_State_University"><img height="20" alt="The Ohio State University" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a> 
+<a href="https://en.wikipedia.org/wiki/Ohio_State_University"><img height="20" alt="The Ohio State University" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a>
 <a href="https://en.wikipedia.org/wiki/University_of_Washington"><img height="20" alt="University of Washington" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/University_of_Washington_Purple_Block_W_logo.svg/256px-University_of_Washington_Purple_Block_W_logo.svg.png"></a>
 <a href="https://en.wikipedia.org/wiki/University_of_Chicago"><img height="20" alt="University of Chicago" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Chicago_Maroons_logo.svg/1200px-Chicago_Maroons_logo.svg.png"></a>
 <a href="https://en.wikipedia.org/wiki/American_University"><img height="20" alt="American University" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/American_Eagles_logo.svg/1200px-American_Eagles_logo.svg.png"></a>
 
-- Political Beliefs: 
+- Political Beliefs:
 
 	![GBS]({{ site.url }}/fig/political.png)
 
@@ -73,4 +73,3 @@ heading to the nation's capital.
 <!--     <a href="https://www.yelp.com/biz/small-cheval-chicago-2"> Small Cheval </a> -->
 <!--     <br> -->
 <!--   </div> -->
-
