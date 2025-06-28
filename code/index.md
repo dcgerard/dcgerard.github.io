@@ -18,7 +18,8 @@ I have written a lot of code for my research. You can see most of it on my [GitH
 Most of my work emphasizes extreme reproducibility, linking code with
 data, and executing automatically via a Makefile.
 
-- Gerard et al. (2024): <https://github.com/dcgerard/mbanalysis>
+- Gerard et al. (2025a): <https://github.com/dcgerard/mbanalysis>
+- Gerard et al. (2025b): <https://github.com/dcgerard/seganal> and <https://github.com/dcgerard/seganal_data>
 - Gerard (2023a): <https://github.com/dcgerard/rmbayes_sims>
 - Gerard (2023b): <https://github.com/dcgerard/hwesims>
 - Gerard (2022)<https://github.com/dcgerard/hwesupp>
@@ -33,8 +34,12 @@ data, and executing automatically via a Makefile.
 
 ### References
 
-- **Gerard, D.**, Thakkar, M., Ferr&atilde;o, L. F. V. (2024). Tests for segregation distortion in tetraploid F1 populations. *bioRxiv*. \\
+- **Gerard, D.**, Thakkar, M., & Ferr&atilde;o L.F.V. (2025). Tests for segregation distortion in tetraploid F1 populations. *Theoretical and Applied Genetics* 138(30), p. 1--13. \\
+  [doi:10.1007/s00122-025-04816-z](https://doi.org/10.1007/s00122-025-04816-z)
   [boiRxiv:2024.02.07.579361](https://doi.org/10.1101/2024.02.07.579361)
+
+- **Gerard, D.**, Ambrosano, G.B., Pereira, G.d.S., & Garcia, A.A.F. (2025b). Tests for segregation distortion in higher ploidy F1 populations. *bioRxiv*, p. 1--20. \\
+  [bioRxiv:2025.06.23.661114](https://doi.org/10.1101/2025.06.23.661114)
 
 - **Gerard, D.** (2023a). Bayesian tests for random mating in polyploids. *Molecular Ecology Resources* 23(8), p. 1812--1822. \\
   [doi:10.1111/1755-0998.13856](https://doi.org/10.1111/1755-0998.13856)
@@ -50,7 +55,7 @@ data, and executing automatically via a Makefile.
 
 - **Gerard, D.** (2021a). Scalable Bias-corrected Linkage
   Disequilibrium Estimation Under Genotype
-  Uncertainty. *Heredity* 127(4), p. 357--362.\\  
+  Uncertainty. *Heredity* 127(4), p. 357--362.\\
   [doi:10.1038/s41437-021-00462-5](https://doi.org/10.1038/s41437-021-00462-5)
   [bioRxiv:2021.02.08.430270](https://doi.org/10.1101/2021.02.08.430270)
 
@@ -91,7 +96,3 @@ data, and executing automatically via a Makefile.
   p. 3703--3737. \\
   [doi:10.1214/17-EJS1330](https://doi.org/10.1214/17-EJS1330)
   [arXiv:1505.02114](https://doi.org/10.48550/arXiv.1505.02114)
-
-
-
-
