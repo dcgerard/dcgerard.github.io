@@ -8,15 +8,16 @@ I am a strong believer in open-learning, and so I've placed most of my teaching 
 
 These three classes cover a statistical programming sequence:
 
-- [R for Data Science I](https://dcgerard.github.io/stat_412_612/)
-- [R for Data Science II](https://data-science-master.github.io/lectures/)
-- [Advanced R](https://dcgerard.github.io/advancedr/)
+- [R for Data Science I](https://dcgerard.github.io/stat_412_612/) (Last Taught: 2019)
+- [R for Data Science II](https://data-science-master.github.io/lectures/) (Last Taught: 2025)
+- [Advanced R](https://dcgerard.github.io/advancedr/) (Last Taught: 2022)
 
-These (four) classes cover an introductory Statistics sequence:
+Introductory Statistics Courses:
 
-- [Introductory Statistics](https://dcgerard.github.io/stat234/)
-- [Biostatistics](https://dcgerard.github.io/stat_320/) or [Statistical Methods](https://dcgerard.github.io/stat614/)
-- [Regression](https://dcgerard.github.io/stat_415_615/)
+- [Introductory Statistics](https://dcgerard.github.io/stat234/) (Last Taught: 2017)
+- [Biostatistics](https://dcgerard.github.io/stat_320/) (Last Taught: 2026)
+- [Statistical Methods](https://dcgerard.github.io/stat614/) (Last Taught: 2018)
+- [Regression](https://dcgerard.github.io/stat_415_615/) (Last Taught: 2024)
 
 The following contains some lecture notes I created to present to my research group on genetic data analysis:
 
