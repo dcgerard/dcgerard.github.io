@@ -15,6 +15,7 @@ These three classes cover a statistical programming sequence:
 Introductory Statistics Courses:
 
 - [Introductory Statistics](https://dcgerard.github.io/stat234/) (Last Taught: 2017)
+- [Intermediate Statistics](https://dcgerard.github.io/stat_302/) (Last Taught: 2026)
 - [Biostatistics](https://dcgerard.github.io/stat_320/) (Last Taught: 2026)
 - [Statistical Methods](https://dcgerard.github.io/stat614/) (Last Taught: 2018)
 - [Regression](https://dcgerard.github.io/stat_415_615/) (Last Taught: 2024)
