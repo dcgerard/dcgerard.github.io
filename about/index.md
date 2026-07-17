@@ -11,16 +11,16 @@ good coffee. I moved back to the Midwest for a few years before
 heading to the nation's capital.
 
 - Favorite Sports Teams:
-<a href="https://en.wikipedia.org/wiki/Ohio_State_Buckeyes_football"><img height="20" alt="Ohio State Buckeyes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a>
-<a href="https://en.wikipedia.org/wiki/Washington_Commanders"><img height="20" alt="Washington Commanders" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Washington_Commanders_logo.svg/2880px-Washington_Commanders_logo.svg.png" alt="Washington Commanders logo"></a>
-<a title="Washington Nationals, Public domain, via Wikimedia Commons" href="https://en.wikipedia.org/wiki/Washington_Nationals"><img height="20" alt="Washington Nationals" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Washington_Nationals_logo.svg/256px-Washington_Nationals_logo.svg.png"></a>
-<a href="https://en.wikipedia.org/wiki/Washington_Capitals"><img height="20" alt = "Washington Capitals" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Washington_Capitals.svg/2560px-Washington_Capitals.svg.png" alt="Washington Capitals logo.svg"></a>
+<a href="https://en.wikipedia.org/wiki/Ohio_State_Buckeyes_football"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/1280px-Ohio_State_Buckeyes_logo.svg.png" alt="Ohio State Buckeyes logo.svg" height="50"></a>
+<a href="https://en.wikipedia.org/wiki/Washington_Commanders"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Washington_Commanders_logo.svg/1280px-Washington_Commanders_logo.svg.png" alt="Washington Commanders logo" height="50"></a>
+<a href="https://en.wikipedia.org/wiki/Washington_Nationals"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Washington_Nationals_logo.svg/1280px-Washington_Nationals_logo.svg.png" alt="Washington Nationals logo.svg" height="50"></a>
+<a href="https://en.wikipedia.org/wiki/Washington_Capitals"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Washington_Capitals.svg/1280px-Washington_Capitals.svg.png" alt="Washington Capitals.svg" height="50"></a>
 
 - Current and Previous Affiliations:
-<a href="https://en.wikipedia.org/wiki/Ohio_State_University"><img height="20" alt="The Ohio State University" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ohio_State_Buckeyes_logo.svg/128px-Ohio_State_Buckeyes_logo.svg.png"></a>
-<a href="https://en.wikipedia.org/wiki/University_of_Washington"><img height="20" alt="University of Washington" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/University_of_Washington_Purple_Block_W_logo.svg/256px-University_of_Washington_Purple_Block_W_logo.svg.png"></a>
-<a href="https://en.wikipedia.org/wiki/University_of_Chicago"><img height="20" alt="University of Chicago" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Chicago_Maroons_logo.svg/1200px-Chicago_Maroons_logo.svg.png"></a>
-<a href="https://en.wikipedia.org/wiki/American_University"><img height="20" alt="American University" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/American_Eagles_logo.svg/1200px-American_Eagles_logo.svg.png"></a>
+<a href="https://en.wikipedia.org/wiki/Ohio_State_University"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Ohio_State_University_seal.svg/1280px-Ohio_State_University_seal.svg.png" alt="Ohio State University seal.svg" height="50"></a>
+<a href="https://en.wikipedia.org/wiki/University_of_Washington"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/University_of_Washington_seal.svg/1280px-University_of_Washington_seal.svg.png" alt="University of Washington seal.svg" height="50"></a>
+<a href="https://en.wikipedia.org/wiki/University_of_Chicago"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/79/University_of_Chicago_shield.svg/1280px-University_of_Chicago_shield.svg.png" alt="The coat of arms of The University of Chicago" height="50"></a>
+<a href="https://en.wikipedia.org/wiki/American_University"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/American_University_Seal.svg/1280px-American_University_Seal.svg.png" alt="American University Seal.svg" height="50"></a>
 
 - Political Beliefs:
 
