@@ -6,6 +6,7 @@ category: code
 
 I have written a lot of code for my research. You can see most of it on my [GitHub Page](https://github.com/dcgerard). But here is a list of some of my R packages:
 
+- [nisone](https://github.com/dcgerard/nisone): Inference for location parameters in location-scale families when $$n \geq 1$$.
 - [segtest](https://cran.r-project.org/package=segtest) (or the older [menbayes](https://github.com/dcgerard/menbayes)): Tests for Segregation Distortion in Tetraploids
 - [ldsep](https://cran.r-project.org/package=ldsep): Linkage Disequilibrium Shrinkage Estimation for Polyploids
 - [hwep](https://cran.r-project.org/package=hwep): Hardy-Weinberg Equilibrium in Polyploids
@@ -18,6 +19,7 @@ I have written a lot of code for my research. You can see most of it on my [GitH
 Most of my work emphasizes extreme reproducibility, linking code with
 data, and executing automatically via a Makefile.
 
+- Gerard (2026): <https://github.com/dcgerard/reproduce_nisone>
 - Gerard et al. (2025a): <https://github.com/dcgerard/mbanalysis>
 - Gerard et al. (2025b): <https://github.com/dcgerard/seganal> and <https://github.com/dcgerard/seganal_data>
 - Gerard (2023a): <https://github.com/dcgerard/rmbayes_sims>
@@ -33,6 +35,9 @@ data, and executing automatically via a Makefile.
 - Gerard and Hoff (2017): <https://github.com/dcgerard/reproduce_sure>
 
 ### References
+
+- **Gerard, D.** (2026). Constructing and extending *n* = 1 Bayesian confidence intervals for location parameters in location-scale families. *arXiv Preprint*. \\
+  [doi:10.48550/arXiv.2607.25007](https://doi.org/10.48550/arXiv.2607.25007)
 
 - **Gerard, D.**, Thakkar, M., & Ferr&atilde;o L.F.V. (2025a). Tests for segregation distortion in tetraploid F1 populations. *Theoretical and Applied Genetics* 138(30), p. 1--13. \\
   [doi:10.1007/s00122-025-04816-z](https://doi.org/10.1007/s00122-025-04816-z)
